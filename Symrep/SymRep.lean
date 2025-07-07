@@ -1,5 +1,5 @@
 import Mathlib
-import Paqrf.YoungTableau
+import Symrep.YoungTableau
 
 #check MonoidAlgebra.singleOneAlgHom
 #check MonoidAlgebra.of

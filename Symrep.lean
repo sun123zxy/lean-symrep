@@ -1,1 +1,2 @@
-import Symrep.Basic
+import Symrep.YoungTableau
+import Symrep.SymRep
