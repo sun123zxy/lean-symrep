@@ -8,7 +8,7 @@ noncomputable instance (G : Type) (k : Type) [Monoid G] [Field k] :
     Coe G (MonoidAlgebra k G) where
   coe := MonoidAlgebra.of k G
 
-abbrev 𝓢 (n : ℕ) := Equiv.Perm (Fin n)
+private abbrev 𝓢 (n : ℕ) := Equiv.Perm (Fin n)
 
 def tp {n : ℕ} (i j : Fin n) : 𝓢 n :=
   let f := fun a => if a = i then j else if a = j then i else a
